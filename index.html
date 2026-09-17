@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chris Mania | Portfolio</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #222;
+            background-color: #f7f7f7;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #cc0033;
+            color: white;
+            padding: 55px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 42px;
+        }
+
+        header p {
+            max-width: 700px;
+            margin: 12px auto 0;
+            font-size: 18px;
+        }
+
+        nav {
+            background-color: white;
+            padding: 15px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        nav a {
+            color: #222;
+            text-decoration: none;
+            margin: 0 18px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #cc0033;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: auto;
+            padding: 45px 20px;
+        }
+
+        h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background-color: white;
+            border: 1px solid #ddd;
+            padding: 10px 16px;
+            border-radius: 5px;
+        }
+
+        .project {
+            background-color: white;
+            margin-bottom: 30px;
+            padding: 25px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+        }
+
+        .project h3 {
+            margin-top: 0;
+            font-size: 23px;
+        }
+
+        .project-images {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .project-images img {
+            max-width: 100%;
+            width: 280px;
+            height: 220px;
+            object-fit: contain;
+            background-color: #f4f4f4;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background-color: #222;
+            color: white;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 34px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Chris Mania</h1>
+    <p>Marketing student at Rutgers Business School with an interest in sports marketing, digital media, branding, and creating content that connects with audiences.</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a marketing student at Rutgers Business School with experience creating digital marketing content, promotional graphics, and branding materials. I enjoy combining creativity with marketing strategy and am especially interested in opportunities within the sports industry.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+
+    <div class="skills">
+        <div class="skill">Digital Marketing</div>
+        <div class="skill">Social Media Marketing</div>
+        <div class="skill">Content Creation</div>
+        <div class="skill">Graphic Design</div>
+        <div class="skill">Canva</div>
+        <div class="skill">Adobe Creative Suite</div>
+        <div class="skill">Branding</div>
+        <div class="skill">Event Promotion</div>
+        <div class="skill">Microsoft Office</div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+        <h3>LERI Digital Marketing</h3>
+        <p>
+            Created digital marketing content designed to promote LERI to Rutgers students. These graphics focused on communicating the service clearly while using Rutgers branding and social-media-friendly designs.
+        </p>
+
+        <div class="project-images">
+            <img src="Leri1.jpeg" alt="LERI marketing graphic">
+            <img src="Leri2.jpeg" alt="LERI marketing graphic">
+            <img src="Leri3.jpeg" alt="LERI marketing graphic">
+        </div>
+    </div>
+
+    <div class="project">
+        <h3>RSBA Mock Free Agency Night</h3>
+        <p>
+            Designed a promotional graphic for a Rutgers Sports Business Association Mock Free Agency Night. The design was created to advertise the event to students and generate interest in an interactive sports business experience.
+        </p>
+
+        <div class="project-images">
+            <img src="RSBABanner.jpg" alt="RSBA Mock Free Agency Night promotional graphic">
+        </div>
+    </div>
+
+    <div class="project">
+        <h3>Fade O'Clock Barbershop Branding</h3>
+        <p>
+            Created a logo for Fade O'Clock Barbershop as part of its branding. The goal was to create a simple and recognizable visual identity that fit the style of the business.
+        </p>
+
+        <div class="project-images">
+            <img src="BarberLogo.jpg" alt="Fade O'Clock Barbershop logo">
+        </div>
+    </div>
+
+</section>
+
+<footer>
+    <p>Chris Mania | Marketing Portfolio</p>
+</footer>
+
+</body>
+</html>
